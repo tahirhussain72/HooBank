@@ -279,7 +279,7 @@ font-family: Poppins;
                 margin-bottom: 35px;
             }
 
-            /* paypal section start here  */
+           
             .paypal-section{
                 display: flex;
                 justify-content: space-between;
@@ -308,7 +308,7 @@ font-family: Poppins;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 160%; /* 28.8px */
+                line-height: 160%;
                 letter-spacing: 0.18px; 
             }
             .apple-logo{
@@ -323,8 +323,6 @@ font-family: Poppins;
                 width:129px;
                 height:42px;
             }
-
-            /* better card deal start here  */
             .better-deal-section{
                 display: flex;
                 justify-content: space-between;
@@ -384,7 +382,7 @@ font-family: Poppins;
                 font-size: 48px;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 170%; /* 81.6px */ 
+                line-height: 170%; 
             }
             .about-us-section p{
                 color: rgba(255, 255, 255, 0.70);
@@ -392,7 +390,7 @@ font-family: Poppins;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 180%; /* 32.4px */
+                line-height: 180%; 
                 letter-spacing: 0.18px; 
                 width: 450px;
                 margin-top: 40px; 
@@ -435,7 +433,7 @@ font-family: Poppins;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 32px; /* 160% */ 
+                line-height: 32px; 
                 
             }
             .images p{
@@ -448,27 +446,6 @@ font-family: Poppins;
                 opacity: 0.5; 
                
             }
-            .about-left-side{
-                /* background: linear-gradient(24deg, #0D0D0D00 1%, #6D6D6D 57.81%, #11101D 93.23%); */
-            }
-            /* .about-left-side  :hover{
-                width: 370px;
-                height: 395px; 
-                border-radius: 20px;
-                background: linear-gradient(154deg, #FFF 16.15%, #6D6D6D 57.81%, #11101D 93.23%);
-                backdrop-filter: blur(5px);
-                color: rgba(255, 255, 255, 0.70); 
-            } */
-            /* .about-people-section :hover{
-                width: 370px;
-                height: 395px; 
-                border-radius: 20px;
-                background: linear-gradient(154deg, #FFF 16.15%, #6D6D6D 57.81%, #11101D 93.23%);
-                backdrop-filter: blur(5px);
-                color: rgba(255, 255, 255, 0.70); 
-            } */
-
-            /* about coin start here   */
 
             .about-coins{
                 display: flex;justify-content: space-between;
@@ -501,7 +478,7 @@ font-family: Poppins;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 160%; /* 28.8px */
+                line-height: 160%; 
                 letter-spacing: 0.18px;  
             }
             .service {
@@ -517,7 +494,7 @@ font-family: Poppins;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 150%; /* 27px */
+                line-height: 150%;
                 text-transform: capitalize; 
                 margin: 100px auto; 
             }
@@ -605,7 +582,7 @@ font-family: Poppins;
 
 
 /* For screens with width less than 576px */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .container {
       padding: 5px;
     }
@@ -618,4 +595,75 @@ font-family: Poppins;
     .menu li a {
       font-size: 14px;
     }
+  } */
+/* For screens with width less than 576px */
+  @media (min-width:992px){
+    .container{
+        width: 90%;
+    }
+left-side h1{
+    font-weight: 400;
+    font-size: 65px;
+    letter-spacing: 0px;
+    width: 520px;
+
+} 
+.get-started{
+    width: 128px;
+    height: 128px; 
+}
+.right-side img{
+    padding-bottom: 150px;
+}
+.counter p{
+    font-size: 18px;
+}
+.counter .user p span{
+    font-size: 18px;
+}
+.counter .company p span{
+     font-size: 18px;
+}
+ .counter .transaction p span{
+    font-size: 18px;
+ }
+ .busines .busines-main h1{
+    width: 600px;
+ }
+ .busines .busines-main p{
+     width: 520px; 
+ }
+ .reward-description{
+    font-size: 14px;
+ }
+ .img-section img{
+     width: 465px;
+     height: 380px;
+ }
+  .bill-control p{
+    width: 435px; 
   }
+  .better-deal h1{
+    width: 510px; 
+  }
+  .layer{
+     width:390px;
+     height:326px;
+  }
+  .about-left-side p{
+    width: 250px; 
+  }
+  .coins{
+     width: 182px;
+     height: 50px; 
+  }
+  .service h1{
+    width: 620px;
+    font-size: 28px;
+     font-weight: 400;
+  }
+  .about-service{
+     width: 900px;
+     height: 293px; 
+  }
+  } 
